@@ -40,9 +40,9 @@ def send_mail():
     email = request.form.get("email", "(no email)")
     message = request.form.get("comment", "(no message)")
 
-    mail_user = "WEBSITE.EMAIL.STUEBER@gmail.com"
-    mail_pass = "qbaf poje vwbh tghh"
-    mail_to   = "kstueber@holycross.edu" or mail_user
+    # mail_user = "WEBSITE.EMAIL.STUEBER@gmail.com"
+    # mail_pass = "qbaf poje vwbh tghh"
+    # mail_to   = "kstueber@holycross.edu" or mail_user
 
     if not (mail_user and mail_pass and mail_to):
         return "Server email is not configured. Set MAIL_USER, MAIL_PASS, MAIL_TO.", 500
