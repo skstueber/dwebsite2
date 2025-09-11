@@ -1,1 +1,1 @@
-This is a website for personal practice. Similar to dwebsite
+This is the source code for the [karstenstueber.com](http://karstenstueber.com) website.
